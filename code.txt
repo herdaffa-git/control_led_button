@@ -1,0 +1,17 @@
+int switchRed = 0;
+
+void setup() {
+  pinMode(7, OUTPUT);
+  pinMode(10, INPUT);
+}
+
+void loop() {
+  switchRed = digitalRead(10);
+
+  if (switchRed == HIGH) {
+    digitalWrite(7, HIGH);
+  }
+  else {
+    digitalWrite(7, LOW);
+  }
+}
