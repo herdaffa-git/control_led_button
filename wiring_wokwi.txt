@@ -1,2 +1,3 @@
 link Project wokwi (1 LED & 1 Button) : https://wokwi.com/projects/481656486541413377
 link Project wokwi (2 LED & 2 Button) : https://wokwi.com/projects/481656338008480769
+link Project wokwi (3 LED & 3 Button) : https://wokwi.com/projects/481652467968599041
