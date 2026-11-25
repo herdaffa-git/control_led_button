@@ -1,17 +1,27 @@
 int switchRed = 0;
+int switchGreen = 0;
 
 void setup() {
   pinMode(7, OUTPUT);
+  pinMode(6, OUTPUT);
   pinMode(10, INPUT);
+  pinMode(9, INPUT);
 }
 
 void loop() {
   switchRed = digitalRead(10);
+  switchGreen = digitalRead(9);
 
   if (switchRed == HIGH) {
     digitalWrite(7, HIGH);
+    digitalWrite(6, LOW);
+  }
+  else if (switchGreen == HIGH) {
+    digitalWrite(7, LOW);
+    digitalWrite(6, HIGH);
   }
   else {
     digitalWrite(7, LOW);
+    digitalWrite(6, LOW);
   }
 }

@@ -3,13 +3,13 @@
 ## Deskripsi
 
 Project Arduino Uno untuk mengontrol
-satu LED menggunakan satu push button.
+dua LED menggunakan dua push button.
 
 ## Hardware
 
 - Arduino Uno
-- 1 LED (Merah)
-- 1 Push Button
+- 2 LED (Merah, Hijau)
+- 2 Push Button
 - Resistor
 - Breadboard
 - Jumper Wire
@@ -17,12 +17,15 @@ satu LED menggunakan satu push button.
 ## Pin Configuration
 
 - LED Merah: D7
+- LED Hijau: D6
 - Button Merah: D10
+- Button Hijau: D9
 
 ## Cara Kerja
 
-Ketika tombol ditekan, LED merah menyala.
-Ketika tombol dilepas, LED merah mati.
+Ketika tombol merah ditekan, LED merah menyala.
+Ketika tombol hijau ditekan, LED hijau menyala.
+Ketika semua tombol dilepas, semua LED mati.
 
 ## Software
 
